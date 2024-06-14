@@ -3,11 +3,19 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Speedometer from './components/speedometer';
+import Propeller from './components/propellers';
+import SwitchButton from './components/switch';
+import Terminal1 from './components/engineeringterminal-1';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <Terminal1 />
+    {/* <Speedometer /> */}
+    {/* <Propeller /> */}
+    {/* <SwitchButton /> */}
   </React.StrictMode>
 );
 

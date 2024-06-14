@@ -1,0 +1,128 @@
+
+.Toggle-div{
+    position: absolute;
+    height: 40px;
+    width: 90px;
+    top:200px;
+    left: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(255, 159, 159); */
+}
+
+.Toggle{
+    /* background-color: aqua; */
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    padding: 1px;
+    cursor: pointer;
+    box-shadow: inset 3px 3px 6px 1px rgba(0, 0, 0, 0.25);
+    /* padding-left: 3px; */
+    border-radius: 30px;
+}
+
+.Toggle.on{
+    background-color: rgb(0, 47, 255);
+}
+.Toggle.off{
+    background-color: rgb(0, 251, 255);
+}
+
+.Toggle-knob{
+    background-color: rgb(255, 255, 255);
+    height: 90%;
+    width: 38%;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 3%; */
+}
+
+.Toggle-knob.knob-on{
+    background-color: rgb(0, 0, 0);
+    transform: translateX(155%);
+}
+
+.Toggle-knob.knob-off{
+    background-color: rgb(255, 208, 0);
+    transform: translateX(10%);
+}
+
+.ri-moon-line{
+    color: white;
+}
+
+.Toggle-text{
+    position: absolute;
+    white-space: nowrap;
+}
+
+.Toggle-text.text-on{
+    top:40%;
+    left:7%;
+    font-size: 7px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.Toggle-text.text-off{
+    top:40%;
+    left:50%;
+    font-size: 7px;
+    font-weight: bold;
+}
+
+.try-div{
+    position: absolute;
+    height: 120px;
+    width: 300px;
+    top:200px;
+    left: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #2c5dff, #a777e3);
+    /* background-color: rgb(255, 0, 0); */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.alttext{
+    position: absolute;
+    top:15px;
+    left:20px;
+    color: white;
+}
+
+.alttext-1{
+    position: absolute;
+    top:65px;
+    left:20px;
+    font-size: 1.5em;
+    color:rgb(255, 255, 255);
+}
+
+.alttext-2{
+    position: absolute;
+    top:77px;
+    left:110px;
+    font-size: 0.7em;
+    color: rgb(0, 255, 4);
+}
+
+.up {
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 10px solid rgb(34, 255, 0);
+    position: absolute;
+    top:80px;
+    left:93px;
+  }
+

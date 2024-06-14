@@ -1,0 +1,131 @@
+.prop-main{
+    position: absolute;
+    /* top:150px; */
+    /* left:200px; */
+    /* height: 50vh;
+    width: 50vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prop-1{
+    position: absolute;
+    top:85px;
+    left:76.5px;
+    /* transform-origin: 40px 7.5px; */
+    /* image-rendering: -webkit-optimize-contrast; */
+    /* image-rendering: pixelated;  */
+    animation: rotate 0.5s linear infinite;
+}
+
+.prop-2{
+    position: absolute;
+    top:85px;
+    left:173px;
+    /* transform-origin: 40.1px 7.5px; */
+    animation: rotate 0.5s linear infinite;
+}
+
+.prop-3{
+    position: absolute;
+    top:174px;
+    left:76.5px;
+    /* transform-origin: 45.4px 10px; */
+    animation: rotate 0.5s linear infinite;
+}
+
+.prop-4{
+    position: absolute;
+    top:174px;
+    left:173px;
+    animation: rotate 0.5s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+.poly{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top:55px;
+    left:200px;
+    clip-path: polygon(14% 0, 100% 0, 100% 3%, 16% 3%, 0 31%, 0 31%);
+    background-color: black;
+}
+
+.clockwise-div{
+    position: absolute;
+    top:50px;
+    left:190px;
+}
+
+.anticlockwise-div{
+    rotate: 170deg;
+    position: absolute;
+    top:45px;
+    left:70px;
+}
+
+.pall{
+    /* position: absolute; */
+    width: 150px;
+    height: 100px;
+    transform: skew(-30deg);
+    background: red;
+    border-radius: 10px;
+}
+
+.pall-hide{
+    position: absolute;
+    top:105px;
+    left:300px;
+    width: 160px;
+    height: 110px;
+    transform: skew(-30deg);
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.line-div-1{
+    position: absolute;
+    top:34px;
+    left:196px;
+}
+
+.line-div-2{
+    position: absolute;
+    transform: scaleY(-1);
+    top:150px;
+    left:196px;
+}
+
+.line-div-3{
+    position: absolute;
+    transform: scaleX(-1);
+    top:34px;
+    left:23px;
+}
+
+.line-div-4{
+    position: absolute;
+    transform: scaleX(-1) scaleY(-1);
+    top:150px;
+    left:23px;
+}
+
+.text-style{
+    /* background: -webkit-linear-gradient(0deg, #37ff00, #a8ffa6, #04ff00); */
+    /* background-clip: border-box; */
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    position: absolute;
+    font-size: 0.65em;
+}
